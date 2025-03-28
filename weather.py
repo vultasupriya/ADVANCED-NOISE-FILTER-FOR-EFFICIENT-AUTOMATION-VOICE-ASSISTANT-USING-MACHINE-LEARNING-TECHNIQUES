@@ -1,7 +1,7 @@
 import requests
 
 # Replace 'your_api_key' with your actual API key
-key = "54d6a02800b5f582abdc56225fca59b2"
+key = "your_api_key"
 api_address = f"http://api.openweathermap.org/data/2.5/weather?q=Kadapa&appid={key}"
 json_data = requests.get(api_address).json()
 
